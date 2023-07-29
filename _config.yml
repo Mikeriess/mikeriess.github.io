@@ -16,8 +16,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: Welcome, file: "index.html"}
-  - {title: Research, file: "blog.md"}
+  - {title: Research, file: "index.html"}
+#  - {title: Research, file: "blog.md"}
 #  - {title: Research projects, file: "research.md"}
   - {title: About, file: "about.md"}
   - {title: CV, url: "https://www.linkedin.com/in/mike-riess-8ba5796b/"}
