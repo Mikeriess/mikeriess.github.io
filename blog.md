@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: "Research notes"
+mathjax: true
 permalink: "/blog/"
 ---
 
