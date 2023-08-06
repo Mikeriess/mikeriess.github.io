@@ -16,7 +16,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: Research, file: "index.html"}
+#  - {title: Research, file: "index.html"}
 #  - {title: Research, file: "blog.md"}
 #  - {title: Research projects, file: "research.md"}
   - {title: About, file: "about.md"}
@@ -27,7 +27,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:mikeriess@users.noreply.github.com"}
   - {title: Github, icon: github, url: "https://github.com/mikeriess"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/mike-riess-8ba5796b/"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+#  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
