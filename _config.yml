@@ -21,7 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #  - {title: Research projects, file: "research.md"}
   - {title: SynBPS, url: "https://github.com/Mikeriess/SynBPS"}
   - {title: About, file: "about.md"}
-  - {title: CV, url: "https://www.linkedin.com/in/mike-riess-phd-8ba5796b/"}v
+  - {title: CV, url: "https://www.linkedin.com/in/mike-riess-phd-8ba5796b/"}
   - {title: Scholar, url: "https://scholar.google.com/citations?user=Mgz-wTYAAAAJ"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
