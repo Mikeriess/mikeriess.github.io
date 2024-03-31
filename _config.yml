@@ -20,7 +20,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #  - {title: Research, file: "blog.md"}
 #  - {title: Research projects, file: "research.md"}
   - {title: SynBPS, url: "https://github.com/Mikeriess/SynBPS"}
-  - {title: About, file: "about.md"}
+  - {title: Hugging Face, url: "https://huggingface.co/mikeriess"}
+#  - {title: About, file: "about.md"}
   - {title: CV, url: "https://www.linkedin.com/in/mike-riess-phd-8ba5796b/"}
   - {title: Scholar, url: "https://scholar.google.com/citations?user=Mgz-wTYAAAAJ"}
 
