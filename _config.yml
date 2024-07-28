@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
 #  - {title: Research, file: "index.html"}
-#  - {title: Research, file: "blog.md"}
+  - {title: Research, file: "blog.md"}
 #  - {title: Research projects, file: "research.md"}
   - {title: SynBPS, url: "https://github.com/Mikeriess/SynBPS"}
   - {title: Hugging Face, url: "https://huggingface.co/mikeriess"}
