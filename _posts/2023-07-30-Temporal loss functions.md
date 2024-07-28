@@ -18,16 +18,20 @@ The illustration above shows the _actual_ remaining time $y$ and the _predicted_
 To evaluate the effect of _focusing_ the learning effort on the early part of the sequences via a temporal penalty, three loss candidates were tested alongside the baseline loss which is most commonly used in previous studies. 
 
 Baseline loss: Mean absolute error (MAE)
-\\$$MAE = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T}\sum_{t=1}^{T_i}\mid y_{t}^i - \hat{y}_{t}^i\mid\\$$
+
+\$$MAE = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T}\sum_{t=1}^{T_i}\mid y_{t}^i - \hat{y}_{t}^i\mid\\$$
 
 Candidate 1: MAE with Exponential temporal decay
-\\$$MAE_{EtD} = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T}\sum_{t=1}^{T_i} \mid y_{t}^i - \hat{y}_{t}^i\mid + \frac{\mid y_{t}^i - \hat{y}_{t}^i\mid}{e^{\left(t\right)}}\\$$
+
+\$$MAE_{EtD} = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T}\sum_{t=1}^{T_i} \mid y_{t}^i - \hat{y}_{t}^i\mid + \frac{\mid y_{t}^i - \hat{y}_{t}^i\mid}{e^{\left(t\right)}}\\$$
 
 Candidate 2: MAE with Power temporal decay
-\\$$MAE_{PtD} = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T}\sum_{t=1}^{T_i} \mid y_{t}^i - \hat{y}_{t}^i\mid + \mid y_{t}^i - \hat{y}_{t}^i\mid ^{\frac{T_i-t}{T_i}}\\$$
+
+\$$MAE_{PtD} = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T}\sum_{t=1}^{T_i} \mid y_{t}^i - \hat{y}_{t}^i\mid + \mid y_{t}^i - \hat{y}_{t}^i\mid ^{\frac{T_i-t}{T_i}}\\$$
 
 Candidate 3: MAE with Moderate temporal decay
-\\$$MAE_{MtD} = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T}\sum_{t=1}^{T_i} \mid y_{t}^i - \hat{y}_{t}^i\mid + \frac{\mid y_{t}^i - \hat{y}_{t}^i\mid}{t}\\$$
+
+\$$MAE_{MtD} = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T}\sum_{t=1}^{T_i} \mid y_{t}^i - \hat{y}_{t}^i\mid + \frac{\mid y_{t}^i - \hat{y}_{t}^i\mid}{t}\\$$
 
 Essentially these variants vary in terms of their slope, which can be seen by the figure below. In this example we have an error of 50 units at each time step, and the size of the bars thereby show how the loss function penalizes that constant error. E.g. \$MAE_{MtD}\$ weight the error at t=1 to be twice as high as the baseline $MAE$, while it approaches 50 as $t\rightarrow\inf$ at a faster rate than \$MAE_{PtD}\$.
 
@@ -45,7 +49,7 @@ The proposed _Temporal Consistency_ measure is thereby intended for the practici
 
 where
 
-\\$$
+\$$
 H(x)= 
 \begin{cases}
     1, &  x\geq 0\\
