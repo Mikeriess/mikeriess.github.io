@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-title:  "Mike Riess"
+title:  "Riess.no"
 ---
 I'm a Doctor of Philosophy in predictive and prescriptive process monitoring. Commercially, I work with data science in the telecommunications sector, focusing on problems at the intersection of customer value management and business process optimization. 
 
