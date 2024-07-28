@@ -1,7 +1,6 @@
 ---
 title:  "Temporal loss functions for remaining time prediction"
 layout: post
-mathjax: true
 ---
 
 Recently, my paper _Remaining cycle time prediction: Temporal loss functions and prediction consistency_ got accepted for publication in Nordic Machine Intelligence (NMI). The paper addresses the issue of improving the performance from the so-called _earliness_ aspect by introducing a temporally-weighted penalty to the loss function. 
@@ -58,6 +57,6 @@ The TC only measures when the predicted remaining time between two time steps (a
 
 ## Experiments, Results, and Conclusion
 
-If you have read this far and remain interested, I strongly recommend reading the full paper [https://journals.uio.no/NMI/article/view/10141]()https://journals.uio.no/NMI/article/view/10141. In brief, it was found that the loss modifications led to small but significant improvements in terms of model earliness performance on out-of-sample data. Interestingly, they did not improve performance from the TC perspective. 
+If you have read this far and remain interested, I strongly recommend reading the full paper: [https://journals.uio.no/NMI/article/view/10141](https://journals.uio.no/NMI/article/view/10141). In brief, it was found that the loss modifications led to small but significant improvements in terms of model earliness performance on out-of-sample data. Interestingly, they did not improve performance from the TC perspective. 
 
 I plan to do a follow-up study to further explore these results via Monte Carlo simulation.
