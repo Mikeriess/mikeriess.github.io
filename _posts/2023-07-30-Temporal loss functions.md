@@ -9,7 +9,7 @@ Recently, my paper _Remaining cycle time prediction: Temporal loss functions and
 
 Earliness refers to how well the model predicts remaining time, early in a sequence of events (a business process instance such as a ticket in customer service). Earliness is often desirable, as it gives the process manager the most time to react when it is needed.
 
-The main idea of this paper was thereby to see if this performance aspect could be improved by changing the loss function used in the best performing approach at the time (https://arxiv.org/abs/1711.03822).
+The main idea of this paper was thereby to see if this performance aspect could be improved by changing the loss function used in the best performing approach at the time ([https://arxiv.org/abs/1711.03822](https://arxiv.org/abs/1711.03822)).
 
 ![illustration](remaining_time.png)
 

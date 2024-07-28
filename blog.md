@@ -8,5 +8,5 @@ permalink: "/blog/"
 {% if site.show_excerpts %}
   {% include home.html %}
 {% else %}
-  {% include archive.html title="Research notes" %}
+  {% include archive.html title="Archive" %}
 {% endif %}
