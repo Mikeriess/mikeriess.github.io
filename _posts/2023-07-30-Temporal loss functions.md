@@ -41,10 +41,12 @@ One can of course say that it is unrealistic to create a model that will not hav
 
 The proposed _Temporal Consistency_ measure is thereby intended for the practicioner (Data scientist) to use for model evaluation, such that end-users will know _to which degree_ this might become a problem out of sample.
 
-$TC = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T-1}\sum_{t=2}^{T_i} H\left( \hat{y}_{t}^i - \hat{y}_{t-1}^i\right)\mid\hat{y}_{t}^i - \hat{y}_{t-1}^i\mid$
+\begin{equation}
+TC = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T-1}\sum_{t=2}^{T_i} H\left( \hat{y}_{t}^i - \hat{y}_{t-1}^i\right)\mid\hat{y}_{t}^i - \hat{y}_{t-1}^i\mid
+\end{equation}
 
 where
-
+\begin{equation}
 \[
     H(x)= 
 \begin{cases}
@@ -52,7 +54,7 @@ where
     0,              & x < 0
 \end{cases}
 \]
-
+\end{equation}
 
 The TC only measures when the predicted remaining time between two time steps (activities in a process) increases. As seen from its formulation, it also only measures the differences between the _predictions_. It should therefore be seen as an addition to other model selection metrics, such as mean absolute error, etc.
 
