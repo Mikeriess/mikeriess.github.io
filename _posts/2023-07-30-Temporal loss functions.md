@@ -54,9 +54,11 @@ where
 \end{cases}
 \]
 
-The TC only measures when the predicted remaining time between two time steps (activities in a process) _increases_. As seen from its formulation, it also only measures the differences between the _predictions_. It should therefore be seen as an addition to other model selection metrics such as Mean absolute error etc.
 
-## Experiments, results and conclusion
-If you read this far and are still interested, you should definitely read the full paper. In short, it was found that the loss modifications led to small but significant improvements in terms of model earliness performance on out-of-sample data. Interestingly, it did not improve performance from the TC perspective.
+The TC only measures when the predicted remaining time between two time steps (activities in a process) increases. As seen from its formulation, it also only measures the differences between the _predictions_. It should therefore be seen as an addition to other model selection metrics, such as mean absolute error, etc.
 
-I am currently working on a follow-up study on these results via Monte-Carlo simulation. Feel free to reach out on linkedin if you wish to contribute.
+## Experiments, Results, and Conclusion
+
+If you have read this far and remain interested, I strongly recommend reading the full paper [https://journals.uio.no/NMI/article/view/10141]()https://journals.uio.no/NMI/article/view/10141. In brief, it was found that the loss modifications led to small but significant improvements in terms of model earliness performance on out-of-sample data. Interestingly, they did not improve performance from the TC perspective. 
+
+I plan to do a follow-up study to further explore these results via Monte Carlo simulation.

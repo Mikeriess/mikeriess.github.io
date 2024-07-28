@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Research notes"
+title: "Research blog"
 mathjax: true
 permalink: "/blog/"
 ---
