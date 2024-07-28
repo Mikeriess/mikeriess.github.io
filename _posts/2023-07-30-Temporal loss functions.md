@@ -33,7 +33,7 @@ To evaluate the effect of _focusing_ the learning effort on the early part of th
 
 > \$$MAE_{MtD} = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T}\sum_{t=1}^{T_i} \mid y_{t}^i - \hat{y}_{t}^i\mid + \frac{\mid y_{t}^i - \hat{y}_{t}^i\mid}{t}\\$$
 
-Essentially these variants vary in terms of their slope, which can be seen by the figure below. In this example we have an error of 50 units at each time step, and the size of the bars thereby show how the loss function penalizes that constant error. E.g. $$MAE_{MtD}$$ weight the error at t=1 to be twice as high as the baseline $MAE$, while it approaches 50 as $$t\rightarrow\inf$$ at a faster rate than $$MAE_{PtD}$$.
+Essentially these variants vary in terms of their slope, which can be seen by the figure below. In this example we have an error of 50 units at each time step, and the size of the bars thereby show how the loss function penalizes that constant error. E.g. $$MAE_{MtD}$$ weight the error at t=1 to be twice as high as the baseline $$MAE$$, while it approaches 50 as $$t\rightarrow\inf$$ at a faster rate than $$MAE_{PtD}$$.
 
 
 ![Loss_example](https://mikeriess.github.io/media/loss.png)
@@ -45,7 +45,7 @@ One can of course say that it is unrealistic to create a model that will not hav
 
 The proposed _Temporal Consistency_ measure is thereby intended for the practicioner (Data scientist) to use for model evaluation, such that end-users will know _to which degree_ this might become a problem out of sample.
 
-\$$TC = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T-1}\sum_{t=2}^{T_i} H\left( \hat{y}_{t}^i - \hat{y}_{t-1}^i\right)\mid\hat{y}_{t}^i - \hat{y}_{t-1}^i\mid\\$$
+> \$$TC = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T-1}\sum_{t=2}^{T_i} H\left( \hat{y}_{t}^i - \hat{y}_{t-1}^i\right)\mid\hat{y}_{t}^i - \hat{y}_{t-1}^i\mid\\$$
 
 where
 
