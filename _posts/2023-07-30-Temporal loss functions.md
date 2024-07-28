@@ -9,7 +9,7 @@ Earliness refers to how well the model predicts remaining time, early in a seque
 
 The main idea of this paper was thereby to see if this performance aspect could be improved by changing the loss function used in the best performing approach at the time ([https://arxiv.org/abs/1711.03822](https://arxiv.org/abs/1711.03822)).
 
-![illustration](remaining_time.png)
+![illustration](_posts/remaining_time.png)
 
 The illustration above shows the _actual_ remaining time $y$ and the _predicted_ remaining time $\hat{y}$ for a single imagined customer service case. The earliness perspective is shown as the distance between the actual and predicted values in the beginning, and the TC perspective (introduced later) shows the increases in predicted remaining time.
 
@@ -31,7 +31,7 @@ $MAE_{MtD} = \frac{1}{N}\sum_{i=1}^{N}\frac{1}{T}\sum_{t=1}^{T_i} \mid y_{t}^i -
 Essentially these variants vary in terms of their slope, which can be seen by the figure below. In this example we have an error of 50 units at each time step, and the size of the bars thereby show how the loss function penalizes that constant error. E.g. $MAE_{MtD}$ weight the error at t=1 to be twice as high as the baseline $MAE$, while it approaches 50 as $t\rightarrow\inf$ at a faster rate than $MAE_{PtD}$.
 
 
-![loss](loss.png)
+![loss](_posts/loss.png)
 
 ## Temporal consistency
 Another aspect of this paper was the evaluation part, in which I introduce a new metric for model assessment. The idea here is that the ideal remaining time model represents time in a monotonically decreasing manner (remaining time does not increase - time only moves in one direction). 
