@@ -21,6 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: Blog, file: "blog.md"}
 #  - {title: Research projects, file: "research.md"}
   - {title: SynBPS, url: "https://github.com/Mikeriess/SynBPS"}
+  - {title: Fannotate, url: "https://github.com/tnresearch/Fannotate"}
   - {title: Hugging Face, url: "https://huggingface.co/mikeriess"}
 #  - {title: About, file: "about.md"}
   - {title: CV, url: "https://www.linkedin.com/in/mike-riess-phd-8ba5796b/"}
