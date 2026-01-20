@@ -3,17 +3,18 @@ layout: page
 mathjax: true
 title:  "Riess.no"
 ---
-I'm a Senior Research Scientist at Telenor Research, working with Business Analytics and AI within the telcommunications sector. I did my PhD on predictive and prescriptive process monitoring at NMBU in Norway, my Msc. in Business Intelligence and Bsc. in Business Administration at Aarhus University in Denmark. 
+I am a Senior Research Scientist at Telenor Research, specializing in Business Analytics and AI within the telecommunications sector. 
 
-Academically, I like to work on the evaluation aspects of applied AI in business processes. In my previous research on predictive process monitoring, I have been focusing on timeliness and (in)consistent behavior of remaining time prediction models. In prescriptive process monitoring, I have so far been focusing on the scheduling aspect (queue management) in customer service settings.
+My research concentrates on the evaluation of applied AI in business processes from three key perspectives: process monitoring, process optimization, and process automation.
 
-This website is mostly intended as an online CV. For collaboration, feel free to reach out through <a href="https://www.linkedin.com/in/mike-riess-8ba5796b/">Linkedin</a>.
+I hold a PhD in Economics and Business Administration with a specialized focus on predictive and prescriptive process monitoring from the Norwegian University of Life Sciences (NMBU). Additionally, I obtained my MSc in Business Intelligence and BSc in Business Administration from Aarhus University, Denmark.
+
+For further details, please refer to my [LinkedIn profile](https://www.linkedin.com/in/mike-riess-phd-8ba5796b/).
 
 Best,<br>
 Mike
 
 ![Mike](Mike.png)
-
 
 
 
