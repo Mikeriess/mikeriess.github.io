@@ -1,6 +1,5 @@
 ---
 layout: page
-mathjax: true
 title:  "Mike Riess"
 --- 
 I am a Senior Research Scientist at Telenor Research, specializing in Business Analytics and AI within the telecommunications sector. 
