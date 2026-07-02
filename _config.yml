@@ -1,38 +1,28 @@
 title: "Riess.no"
 author: "Mike Riess"
-description: "All rights reserved."
+description: "Mike Riess — Senior Research Scientist at Telenor Research. Applied AI, business analytics and process mining."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 markdown: kramdown
 
-# Layout
-
-show_excerpts: false        # show article excerpts on the home page
-
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-#  - {title: Research, file: "index.html"}
   - {title: Blog, file: "blog.md"}
-#  - {title: Research projects, file: "research.md"}
+  - {title: Research, url: "/research/"}
   - {title: SynBPS, url: "https://github.com/Mikeriess/SynBPS"}
-  - {title: Fannotate, url: "https://github.com/tnresearch/Fannotate"}
   - {title: Hugging Face, url: "https://huggingface.co/mikeriess"}
-#  - {title: About, file: "about.md"}
   - {title: CV, url: "https://www.linkedin.com/in/mike-riess-phd-8ba5796b/"}
   - {title: Scholar, url: "https://scholar.google.com/citations?user=Mgz-wTYAAAAJ"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:mikeriess@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/mikeriess"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/mike-riess-8ba5796b/"}
-#  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Github, icon: github, url: "https://github.com/Mikeriess"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/mike-riess-phd-8ba5796b/"}
 
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
+exclude:
+ - README.md
 
 plugins:
  - jekyll-feed

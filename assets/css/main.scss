@@ -18,32 +18,20 @@
    ============================================================ */
 
 :root {
-  --bg: #FAF9F5;
-  --bg-tint: #F0EEE6;
-  --text: #3D3929;
-  --heading: #191919;
-  --muted: #87867F;
+  color-scheme: dark;
+  --bg: #262624;
+  --bg-tint: #30302E;
+  --text: #ECEAE2;
+  --heading: #F5F4EE;
+  --muted: #A6A39A;
   --accent: #D97757;
-  --accent-hover: #C4633F;
-  --border: #E8E6DD;
+  --accent-hover: #E08D70;
+  --border: #3E3D39;
   --radius: 12px;
   --radius-sm: 6px;
   --font-serif: "Source Serif 4", "Iowan Old Style", ui-serif, Georgia, serif;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #262624;
-    --bg-tint: #30302E;
-    --text: #ECEAE2;
-    --heading: #F5F4EE;
-    --muted: #A6A39A;
-    --accent: #D97757;
-    --accent-hover: #E08D70;
-    --border: #3E3D39;
-  }
 }
 
 /* ============================================================
@@ -347,6 +335,55 @@ main article article header h1 {
   color: var(--accent);
 }
 
+/* publication list (research page) */
+.pub-meta {
+  color: var(--muted);
+  font-size: .9rem;
+  margin: -.4em 0 1em;
+}
+
+.pub-meta a {
+  color: var(--muted);
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 3px;
+}
+
+.pub-meta a:hover {
+  color: var(--accent);
+}
+
+article h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+article h2 a:hover {
+  color: var(--accent);
+}
+
+details {
+  background: var(--bg-tint);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: .6em 1.1em;
+  margin: 1em 0 2em;
+}
+
+details summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: .95rem;
+}
+
+details[open] summary {
+  margin-bottom: .5em;
+}
+
+details :last-child {
+  margin-bottom: .25em;
+}
+
 .more {
   margin: 2em 0 1em;
 }
@@ -404,81 +441,44 @@ main article article header h1 {
 }
 
 /* ============================================================
-   Syntax highlighting — warm light scheme
+   Syntax highlighting — warm dark scheme
    ============================================================ */
 
 .highlight .c, .highlight .cm, .highlight .cp,
 .highlight .c1, .highlight .cs {
-  color: #9C9488;
+  color: #8F8A7E;
   font-style: italic;
 }
 
 .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn,
 .highlight .kp, .highlight .kr, .highlight .kt,
 .highlight .o, .highlight .ow, .highlight .nt {
-  color: #AD5F44;
+  color: #E08D70;
 }
 
 .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd,
 .highlight .s2, .highlight .se, .highlight .sh, .highlight .si,
 .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss,
 .highlight .ld {
-  color: #6C7A4E;
+  color: #A3B37F;
 }
 
 .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi,
 .highlight .mo, .highlight .il, .highlight .no {
-  color: #8A6BAF;
+  color: #B49FD8;
 }
 
 .highlight .na, .highlight .nc, .highlight .nd, .highlight .ne,
 .highlight .nf, .highlight .nx {
-  color: #5A748C;
+  color: #8FB0CC;
 }
 
 .highlight .err {
-  color: #AD1A1A;
+  color: #E07070;
 }
 
 .highlight .ge { font-style: italic; }
 .highlight .gs { font-weight: bold; }
-.highlight .gu { color: #9C9488; }
-.highlight .gd { color: #A54242; }
-.highlight .gi { color: #4E7A4E; }
-
-@media (prefers-color-scheme: dark) {
-  .highlight .c, .highlight .cm, .highlight .cp,
-  .highlight .c1, .highlight .cs {
-    color: #8F8A7E;
-  }
-
-  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn,
-  .highlight .kp, .highlight .kr, .highlight .kt,
-  .highlight .o, .highlight .ow, .highlight .nt {
-    color: #E08D70;
-  }
-
-  .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd,
-  .highlight .s2, .highlight .se, .highlight .sh, .highlight .si,
-  .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss,
-  .highlight .ld {
-    color: #A3B37F;
-  }
-
-  .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi,
-  .highlight .mo, .highlight .il, .highlight .no {
-    color: #B49FD8;
-  }
-
-  .highlight .na, .highlight .nc, .highlight .nd, .highlight .ne,
-  .highlight .nf, .highlight .nx {
-    color: #8FB0CC;
-  }
-
-  .highlight .err {
-    color: #E07070;
-  }
-
-  .highlight .gd { color: #D98080; }
-  .highlight .gi { color: #93B383; }
-}
+.highlight .gu { color: #8F8A7E; }
+.highlight .gd { color: #D98080; }
+.highlight .gi { color: #93B383; }
