@@ -293,6 +293,22 @@ main > article > header h1 a {
    Components
    ============================================================ */
 
+/* homepage portrait */
+.portrait {
+  float: right;
+  width: 150px;
+  height: auto;
+  border-radius: var(--radius);
+  margin: .25rem 0 1rem 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .portrait {
+    width: 110px;
+    margin-left: 1rem;
+  }
+}
+
 /* publication list (research page) */
 .pub-meta {
   color: var(--muted);
