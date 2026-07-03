@@ -38,11 +38,31 @@ Business process simulation methods are typically calibrated to data from an exi
 </details>
 
 ## [Remaining cycle time prediction: Temporal loss functions and prediction consistency](https://journals.uio.no/NMI/article/view/10141)
-<p class="pub-meta">Mike Riess &middot; Nordic Machine Intelligence, vol. 3, pp. 12&ndash;26 &middot; 2023 &middot; <a href="https://github.com/Mikeriess/Temporal_loss">Code</a> &middot; <a href="/Temporal-loss-functions/">Blog post</a></p>
+<p class="pub-meta">Mike Riess &middot; Nordic Machine Intelligence, vol. 3, pp. 12&ndash;26 &middot; 2023 &middot; <a href="https://github.com/Mikeriess/Temporal_loss">Code</a></p>
 
 An evaluation of temporally weighted L1 loss functions for improving the earliness of remaining time predictions, and a new Temporal Consistency metric for model assessment.
 
 <details markdown="1">
 <summary>Abstract</summary>
 The usefulness of remaining cycle time models for predictive and prescriptive process monitoring depends not only on the overall accuracy of the predictions, but also on their earliness: predictions should be as accurate as possible, as early as possible. To give this criterion more weight in model fitting, this paper evaluates three L1 loss functions with temporal decay, all of which increase the weight of residuals from the early stages of a process relative to residuals from later stages, but do so to different degrees. The loss functions are used in LSTM networks for training remaining time models of four different business processes based on publicly available event log datasets. Compared to models trained with an unweighted L1 loss, the suggested modifications yield small but significant improvements in earliness on out-of-sample data.
+</details>
+
+## [Essays on predictive and prescriptive process monitoring](https://www.nmbu.no/forskning/disputaser/9-june-mike-riess-hh)
+<p class="pub-meta">Mike Riess &middot; PhD thesis 2022:21, School of Economics and Business, Norwegian University of Life Sciences (NMBU) &middot; 2023 &middot; ISBN 978-82-575-1896-7</p>
+
+Doctoral thesis on proactive methods of decision support in business processes, defended 9 June 2023.
+
+<details markdown="1">
+<summary>About the thesis</summary>
+The thesis addresses problems related to proactive methods of decision support in business processes: predictive process monitoring, which aims to warn about potential problems before they occur, and prescriptive process monitoring, which seeks to proactively remedy predicted issues before they materialise.
+</details>
+
+## [Automating model management: a survey on metaheuristics for concept-drift adaptation](https://doi.org/10.1007/s42488-022-00075-5)
+<p class="pub-meta">Mike Riess &middot; Journal of Data, Information and Management &middot; 2022</p>
+
+A survey of the literature on automated adaptation of machine learning models via metaheuristics in settings with concept drift.
+
+<details markdown="1">
+<summary>Abstract</summary>
+This study provides an overview of the literature on automated adaptation of machine learning models via metaheuristics in settings with concept drift. Drift-adaptation of machine learning models presents a high-dimensional optimisation problem, and stochastic optimisation via metaheuristics has therefore been a popular choice for finding semi-optimal solutions at a low computational cost. Automated concept-drift adaptation has mainly been studied in data stream mining; however, as data drift is prevalent in many areas, analogous solutions have been proposed in other fields. The surveyed literature is qualitatively classified in terms of relevant aspects of concept drift, adaptation/automation approach and type of metaheuristic. Among the findings, the vast majority of studies use population-based metaheuristics, with eleven of the proposed algorithms derived from either Genetic Algorithms or Particle Swarm Optimisation.
 </details>
