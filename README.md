@@ -1,6 +1,6 @@
 # riess.no
 
-Personal website of Mike Riess — Senior Research Scientist at Telenor Research, working on applied AI, business analytics and process mining.
+Personal website of Mike Riess - Senior Research Scientist at Telenor Research, working on applied AI, business analytics and process mining.
 
 Live at **https://mikeriess.github.io/**
 

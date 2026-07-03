@@ -1,6 +1,6 @@
 title: "Riess.no"
 author: "Mike Riess"
-description: "Mike Riess — Senior Research Scientist at Telenor Research. Applied AI, business analytics and process mining."
+description: "Mike Riess - Senior Research Scientist at Telenor Research. Applied AI, business analytics and process mining."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -13,12 +13,12 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: Research, url: "/research/"}
   - {title: SynBPS, url: "https://github.com/Mikeriess/SynBPS"}
   - {title: Hugging Face, url: "https://huggingface.co/mikeriess"}
-  - {title: CV, url: "https://www.linkedin.com/in/mike-riess-phd-8ba5796b/"}
+  - {title: CV, url: "https://www.linkedin.com/in/mike-riess-8ba5796b/"}
   - {title: Scholar, url: "https://scholar.google.com/citations?user=Mgz-wTYAAAAJ"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/Mikeriess"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/mike-riess-phd-8ba5796b/"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/mike-riess-8ba5796b/"}
 
 exclude:
  - README.md
