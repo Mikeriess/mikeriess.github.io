@@ -11,8 +11,8 @@ markdown: kramdown
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: Research, url: "/research/"}
-  - {title: SynBPS, url: "https://github.com/Mikeriess/SynBPS"}
   - {title: CV, url: "/cv/"}
+  - {title: SynBPS, url: "https://github.com/Mikeriess/SynBPS"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Hugging Face, icon: hugging-face, url: "https://huggingface.co/mikeriess"}
