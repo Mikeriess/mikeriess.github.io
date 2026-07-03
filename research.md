@@ -2,23 +2,23 @@
 layout: page
 title: "Research"
 permalink: "/research/"
-description: "Publications by Mike Riess — papers on process mining, predictive process monitoring, business process simulation, and NLP for Nordic languages."
+description: "Publications by Mike Riess - papers on process mining, predictive process monitoring, business process simulation, and NLP for Nordic languages."
 ---
 
 Peer-reviewed papers and preprints, most recent first. See also my [Google Scholar profile](https://scholar.google.com/citations?user=Mgz-wTYAAAAJ).
 
 ## [Telenor Nordics Customer Service Self-Help Corpus](https://journals.uio.no/NMI/article/view/13262)
-<p class="pub-meta">Mike Riess &middot; Nordic Machine Intelligence &middot; 2026 &middot; <a href="https://arxiv.org/abs/2605.26891">arXiv</a></p>
+<p class="pub-meta">Mike Riess - Nordic Machine Intelligence - 2026 - <a href="https://arxiv.org/abs/2605.26891">arXiv</a></p>
 
 A multilingual customer service self-help corpus of 1,122 manually validated documents in Finnish, Danish, Norwegian and Swedish, totalling over one million tokens.
 
 <details markdown="1">
 <summary>Abstract</summary>
-This paper presents a multilingual customer service self-help corpus comprising 1,122 manually validated documents in Finnish, Danish, Norwegian, and Swedish, totaling over one million tokens. The documents have been sourced from the public self-help pages of four Nordic telecommunications operators and subsequently filtered for person-identifiable information and relevance through a combined LLM and human annotation pipeline. Domain-specific datasets for Nordic languages remain scarce, particularly in customer service — a domain of growing importance for retrieval-augmented generation, cross-lingual transfer learning, and emerging agent-based service architectures.
+This paper presents a multilingual customer service self-help corpus comprising 1,122 manually validated documents in Finnish, Danish, Norwegian, and Swedish, totaling over one million tokens. The documents have been sourced from the public self-help pages of four Nordic telecommunications operators and subsequently filtered for person-identifiable information and relevance through a combined LLM and human annotation pipeline. Domain-specific datasets for Nordic languages remain scarce, particularly in customer service - a domain of growing importance for retrieval-augmented generation, cross-lingual transfer learning, and emerging agent-based service architectures.
 </details>
 
 ## [The BRAGE Benchmark: Evaluating Zero-shot Learning Capabilities of Large Language Models for Norwegian Customer Service Dialogues](https://aclanthology.org/2025.nodalida-1.57/)
-<p class="pub-meta">Mike Riess, Tollef Emil Jørgensen &middot; NoDaLiDa/Baltic-HLT 2025, pp. 525&ndash;536 &middot; 2025</p>
+<p class="pub-meta">Mike Riess, Tollef Emil Jørgensen - NoDaLiDa/Baltic-HLT 2025, pp. 525-536 - 2025</p>
 
 A benchmark testing the ability of open-weight large language models to classify Norwegian customer service dialogues from a single instruction.
 
@@ -28,17 +28,17 @@ This study explores the capabilities of open-weight Large Language Models in a z
 </details>
 
 ## [SynBPS: a parametric simulation framework for the generation of event-log data](https://doi.org/10.1177/00375497241233326)
-<p class="pub-meta">Mike Riess &middot; SIMULATION: Transactions of The Society for Modeling and Simulation International, 100, pp. 849&ndash;870 &middot; 2024 &middot; <a href="https://github.com/Mikeriess/SynBPS">Code</a></p>
+<p class="pub-meta">Mike Riess - SIMULATION: Transactions of The Society for Modeling and Simulation International, 100, pp. 849-870 - 2024 - <a href="https://github.com/Mikeriess/SynBPS">Code</a></p>
 
 A Python library for generating event-log data from theoretical business processes specified by well-known parametric distributions.
 
 <details markdown="1">
 <summary>Abstract</summary>
-Business process simulation methods are typically calibrated to data from an existing process. To test hypotheses in the area of predictive process monitoring, it can however be more helpful to simulate event-log data from a theoretical process, in which all aspects can be manipulated — for example, when assessing the influence of process complexity or variability on the performance of a new prediction method, where the ability to include control variables and systematically change process characteristics is key. SynBPS is a Python library for the generation of event-log data from synthetic processes specified by well-known parametric distributions. Aspects such as process memory, trace distribution, duration distributions and case arrivals can be fully controlled by the user.
+Business process simulation methods are typically calibrated to data from an existing process. To test hypotheses in the area of predictive process monitoring, it can however be more helpful to simulate event-log data from a theoretical process, in which all aspects can be manipulated - for example, when assessing the influence of process complexity or variability on the performance of a new prediction method, where the ability to include control variables and systematically change process characteristics is key. SynBPS is a Python library for the generation of event-log data from synthetic processes specified by well-known parametric distributions. Aspects such as process memory, trace distribution, duration distributions and case arrivals can be fully controlled by the user.
 </details>
 
 ## [Remaining cycle time prediction: Temporal loss functions and prediction consistency](https://journals.uio.no/NMI/article/view/10141)
-<p class="pub-meta">Mike Riess &middot; Nordic Machine Intelligence, vol. 3, pp. 12&ndash;26 &middot; 2023 &middot; <a href="https://github.com/Mikeriess/Temporal_loss">Code</a></p>
+<p class="pub-meta">Mike Riess - Nordic Machine Intelligence, vol. 3, pp. 12-26 - 2023 - <a href="https://github.com/Mikeriess/Temporal_loss">Code</a></p>
 
 An evaluation of temporally weighted L1 loss functions for improving the earliness of remaining time predictions, and a new Temporal Consistency metric for model assessment.
 
@@ -48,7 +48,7 @@ The usefulness of remaining cycle time models for predictive and prescriptive pr
 </details>
 
 ## [Essays on predictive and prescriptive process monitoring](https://www.nmbu.no/forskning/disputaser/9-june-mike-riess-hh)
-<p class="pub-meta">Mike Riess &middot; PhD thesis 2022:21, School of Economics and Business, Norwegian University of Life Sciences (NMBU) &middot; 2023 &middot; ISBN 978-82-575-1896-7</p>
+<p class="pub-meta">Mike Riess - PhD thesis 2022:21, School of Economics and Business, Norwegian University of Life Sciences (NMBU) - 2023 - ISBN 978-82-575-1896-7</p>
 
 Doctoral thesis on proactive methods of decision support in business processes, defended 9 June 2023.
 
@@ -58,7 +58,7 @@ The thesis addresses problems related to proactive methods of decision support i
 </details>
 
 ## [Automating model management: a survey on metaheuristics for concept-drift adaptation](https://doi.org/10.1007/s42488-022-00075-5)
-<p class="pub-meta">Mike Riess &middot; Journal of Data, Information and Management &middot; 2022</p>
+<p class="pub-meta">Mike Riess - Journal of Data, Information and Management - 2022</p>
 
 A survey of the literature on automated adaptation of machine learning models via metaheuristics in settings with concept drift.
 

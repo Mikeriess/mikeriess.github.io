@@ -3,7 +3,7 @@ layout: page
 title:  "Research projects"
 permalink: "/projects/"
 ---
-The following is a list of research projects that I am currently working on. If you wish to collaborate, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/mike-riess-phd-8ba5796b/) or consider making a pull request in the associated GitHub repo.
+The following is a list of research projects that I am currently working on. If you wish to collaborate, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/mike-riess-8ba5796b/) or consider making a pull request in the associated GitHub repo.
 
 # Current research projects
 

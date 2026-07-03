@@ -8,7 +8,7 @@ My research concentrates on the evaluation of applied AI in business processes f
 
 I hold a PhD in Economics and Business Administration with a specialized focus on predictive and prescriptive process monitoring from the Norwegian University of Life Sciences (NMBU). Additionally, I obtained my MSc in Business Intelligence and BSc in Business Administration from Aarhus University, Denmark.
 
-For further details, please refer to my [LinkedIn profile](https://www.linkedin.com/in/mike-riess-phd-8ba5796b/).
+For further details, please refer to my [LinkedIn profile](https://www.linkedin.com/in/mike-riess-8ba5796b/).
 
 Best,<br>
 Mike

@@ -24,8 +24,8 @@
   --text: #ECEAE2;
   --heading: #F5F4EE;
   --muted: #A6A39A;
-  --accent: #D97757;
-  --accent-hover: #E08D70;
+  --accent: #4AB3A3;
+  --accent-hover: #6BC9BA;
   --border: #2B2925;
   --radius: 12px;
   --radius-sm: 6px;
@@ -44,6 +44,7 @@
 
 html {
   height: 100%;
+  background: var(--bg);
 }
 
 body {
@@ -60,7 +61,7 @@ body {
 }
 
 ::selection {
-  background: rgba(217, 119, 87, .25);
+  background: rgba(74, 179, 163, .25);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -93,7 +94,7 @@ a:hover {
 main a {
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-decoration-color: rgba(217, 119, 87, .45);
+  text-decoration-color: rgba(74, 179, 163, .45);
   text-underline-offset: 3px;
 }
 
