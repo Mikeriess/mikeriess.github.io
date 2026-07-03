@@ -2,7 +2,7 @@
 layout: page
 title:  "Mike Riess"
 ---
-<img src="/Mike.png" alt="Mike Riess" class="portrait">
+<img src="/assets/mike-portrait.png" alt="Mike Riess" class="portrait">
 
 I am a Senior Research Scientist at Telenor Research in Oslo, working on applied AI and business analytics in the telecommunications sector.
 
