@@ -293,19 +293,35 @@ main > article > header h1 a {
    Components
    ============================================================ */
 
-/* homepage portrait */
+/* homepage hero: fixed-width text column, portrait beside it */
+.hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+}
+
 .portrait {
-  float: right;
+  flex-shrink: 0;
   width: 150px;
   height: auto;
   border-radius: var(--radius);
-  margin: .25rem 0 1rem 1.5rem;
+  margin-top: .3rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 560px) {
+  .hero {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
   .portrait {
-    width: 110px;
-    margin-left: 1rem;
+    order: -1;
+    width: 132px;
   }
 }
 
