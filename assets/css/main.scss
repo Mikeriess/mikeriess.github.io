@@ -383,6 +383,18 @@ details :last-child {
   transition: .2s color;
 }
 
+/* the scholar glyph is tall and narrow, the hugging face outline is
+   visually light - both need a size bump to sit level with the solid icons */
+.icon-google-scholar {
+  height: 1.35em;
+  width: 1.35em;
+}
+
+.icon-hugging-face {
+  height: 1.3em;
+  width: 1.3em;
+}
+
 /* ============================================================
    Fixes carried over from the previous theme
    ============================================================ */
