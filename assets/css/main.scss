@@ -19,14 +19,14 @@
 
 :root {
   color-scheme: dark;
-  --bg: #262624;
-  --bg-tint: #30302E;
+  --bg: #000000;
+  --bg-tint: #161513;
   --text: #ECEAE2;
   --heading: #F5F4EE;
   --muted: #A6A39A;
   --accent: #D97757;
   --accent-hover: #E08D70;
-  --border: #3E3D39;
+  --border: #2B2925;
   --radius: 12px;
   --radius-sm: 6px;
   --font-serif: "Source Serif 4", "Iowan Old Style", ui-serif, Georgia, serif;
@@ -262,12 +262,6 @@ main > article > header h1 a {
   font-size: .9rem;
 }
 
-/* archive include nested inside a page keeps its own <h1>;
-   render it at section level so the page has one visual title */
-main article article header h1 {
-  font-size: 1.35rem;
-  margin: 1.5em 0 .5em;
-}
 
 .site-footer {
   border-top: 1px solid var(--border);
@@ -297,43 +291,6 @@ main article article header h1 {
 /* ============================================================
    Components
    ============================================================ */
-
-.archive {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0;
-}
-
-.archive li {
-  display: flex;
-  align-items: baseline;
-  gap: 1.25rem;
-  padding: .65rem 0;
-  margin: 0;
-}
-
-.archive li + li {
-  border-top: 1px solid var(--border);
-}
-
-.archive time {
-  flex-shrink: 0;
-  min-width: 7.5ch;
-  font-size: .85em;
-  font-variant-numeric: tabular-nums;
-}
-
-.archive a {
-  font-family: var(--font-serif);
-  font-size: 1.1em;
-  font-weight: 600;
-  color: var(--heading);
-  text-decoration: none;
-}
-
-.archive a:hover {
-  color: var(--accent);
-}
 
 /* publication list (research page) */
 .pub-meta {
@@ -382,25 +339,6 @@ details[open] summary {
 
 details :last-child {
   margin-bottom: .25em;
-}
-
-.more {
-  margin: 2em 0 1em;
-}
-
-.more a {
-  display: inline-block;
-  border: 1px solid var(--accent);
-  border-radius: 999px;
-  padding: .45em 1.1em;
-  color: var(--accent);
-  text-decoration: none;
-  transition: .2s background, .2s color;
-}
-
-.more a:hover {
-  background: var(--accent);
-  color: #fff;
 }
 
 .icon {

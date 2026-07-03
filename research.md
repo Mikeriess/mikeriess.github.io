@@ -38,7 +38,7 @@ Business process simulation methods are typically calibrated to data from an exi
 </details>
 
 ## [Remaining cycle time prediction: Temporal loss functions and prediction consistency](https://journals.uio.no/NMI/article/view/10141)
-<p class="pub-meta">Mike Riess &middot; Nordic Machine Intelligence, vol. 3, pp. 12&ndash;26 &middot; 2023 &middot; <a href="https://github.com/Mikeriess/Temporal_loss">Code</a> &middot; <a href="/Temporal-loss-functions/">Blog post</a></p>
+<p class="pub-meta">Mike Riess &middot; Nordic Machine Intelligence, vol. 3, pp. 12&ndash;26 &middot; 2023 &middot; <a href="https://github.com/Mikeriess/Temporal_loss">Code</a></p>
 
 An evaluation of temporally weighted L1 loss functions for improving the earliness of remaining time predictions, and a new Temporal Consistency metric for model assessment.
 
