@@ -1,16 +1,11 @@
 ---
 layout: page
 title:  "Mike Riess"
---- 
-I am a Senior Research Scientist at Telenor Research, specializing in Business Analytics and AI within the telecommunications sector. 
+---
+<img src="/Mike.png" alt="Mike Riess" class="portrait">
 
-My research concentrates on the evaluation of applied AI in business processes from three key perspectives: process monitoring, process optimization, and process automation.
+I am a Senior Research Scientist at Telenor Research in Oslo, working on applied AI and business analytics in the telecommunications sector.
 
-I hold a PhD in Economics and Business Administration with a specialized focus on predictive and prescriptive process monitoring from the Norwegian University of Life Sciences (NMBU). Additionally, I obtained my MSc in Business Intelligence and BSc in Business Administration from Aarhus University, Denmark.
+My research spans two threads: the evaluation of applied AI in business processes - process monitoring, optimization, and automation - and, more recently, large language models and NLP for customer service in the Nordic languages.
 
-For further details, please refer to my [LinkedIn profile](https://www.linkedin.com/in/mike-riess-8ba5796b/).
-
-Best,<br>
-Mike
-
-![Mike](Mike.png)
+I hold a PhD in Business Analytics from the Norwegian University of Life Sciences (NMBU). See my [research](/research/) for publications, or my [CV](/cv/) for the full background.
