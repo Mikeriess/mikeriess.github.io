@@ -15,8 +15,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: CV, url: "/cv/"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Scholar, url: "https://scholar.google.com/citations?user=Mgz-wTYAAAAJ"}
   - {title: Hugging Face, url: "https://huggingface.co/mikeriess"}
+  - {title: Scholar, icon: google-scholar, url: "https://scholar.google.com/citations?user=Mgz-wTYAAAAJ"}
   - {title: Github, icon: github, url: "https://github.com/Mikeriess"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/mike-riess-8ba5796b/"}
 
