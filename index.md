@@ -11,6 +11,6 @@ My research focuses on the evaluation of applied AI in business processes - proc
 <img src="/assets/mike-portrait.png" alt="Mike Riess" class="portrait">
 </div>
 
-Before moving into research full-time, I spent five years as a data scientist at Telia in Norway, Sweden and Denmark, working on churn prediction, CRM and crowd insights.
+Before I moved into industry research, I spent five years as a data scientist at Telia in Norway, Sweden and Denmark, working on churn prediction, CRM and crowd insights.
 
 I hold a PhD in Business Analytics from the Norwegian University of Life Sciences (NMBU). See my [research](/research/) for publications, or my [CV](/cv/) for the full background.
