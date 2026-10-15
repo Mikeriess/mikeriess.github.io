@@ -237,6 +237,30 @@ nav a.selected {
   color: var(--accent);
 }
 
+/* Lucide line icons next to the menu titles (same set as the LLM wiki) */
+nav a .lucide {
+  width: 1.05em;
+  height: 1.05em;
+  margin-right: .4em;
+  vertical-align: -.15em;
+  color: var(--muted);
+  transition: .2s color;
+}
+
+nav a:hover .lucide,
+nav a.selected .lucide {
+  color: var(--accent);
+}
+
+/* section icons in front of h2 headings (CV page) */
+h2 .lucide {
+  width: .85em;
+  height: .85em;
+  margin-right: .35em;
+  vertical-align: -.08em;
+  color: var(--accent);
+}
+
 main {
   flex-grow: 1;
   width: 100%;
