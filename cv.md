@@ -20,7 +20,7 @@ Predictive and prescriptive process monitoring; sequential decision-making in op
 ### Senior Research Scientist
 <p class="pub-meta">Telenor Research and Innovation, Telenor Group - Oslo, Norway - Oct 2023-present</p>
 
-Applied AI research on large language models, customer service AI, business process intelligence, agentic systems and intelligent automation. Leads own research tracks, contributes to externally funded projects (Horizon Europe INTEND, NFR SCRIBE), publishes scientifically and gives strategic briefings to group management. Created Telenor AI Bench, an internal benchmark suite for evaluating language models, and contributed to Telenor's GenAI strategy work. Methodology lead for process analysis and AI-based automation across group functions.
+Applied AI research on large language models, customer service AI, business process intelligence, agentic systems and intelligent automation. Leads own research tracks, contributes to externally funded projects (Horizon Europe INTEND), publishes scientifically and gives strategic briefings to group management. Created Telenor AI Bench, an internal benchmark suite for evaluating language models, and contributed to Telenor's GenAI strategy work. Methodology lead for process analysis and AI-based automation across group functions.
 
 ### Senior Data Scientist
 <p class="pub-meta">Telia Denmark, Business Intelligence and Analytics - Copenhagen - May 2022-Sep 2023</p>
@@ -92,7 +92,6 @@ Teaching and supervision duties of 569 workload hours at NMBU from 2018 to 2021.
 - **AI Bench and GenAI strategy**, Telenor (2024-). Initiator of Telenor's internal benchmark suite for evaluating language models, productized into a model leaderboard on Telenor AI Factory infrastructure. The open Telenor Nordics corpus came out of the same work.
 - **BRAGE**, Telenor (2024-2025). Project lead and first author of the benchmark for language models on Norwegian customer service dialogues, published at NoDaLiDa/Baltic-HLT 2025.
 - **INTEND** (Horizon Europe, 2024-). Intent-based operation of data infrastructure; business case and research blueprints for the Telenor 5G4Data use case.
-- **SCRIBE** (Research Council of Norway, 2024-2025). Collaboration with NTNU on dialogue analysis of customer service transcripts with large language models.
 - **Automated retention and MLOps architecture**, Telia Norway (2018-2019). Project lead.
 - **Automated fraud detection in survey data**, Epinion (2016), and discourse analyses for DR and NORAD (2017).
 
@@ -118,7 +117,6 @@ Teaching and supervision duties of 569 workload hours at NMBU from 2018 to 2021.
 - *From prompt to business value: A case study in Telenor Norway*. Danish Data Science Community, March 2025.
 - *The BRAGE benchmark* (with Tollef Emil Jørgensen). NoDaLiDa/Baltic-HLT 2025, Tallinn, March 2025.
 - *Zero-shot classification with large language models*. Expert talk, Telenor Learning Center, April 2025.
-- *Generative and agentic AI*. Series of management briefings, Telenor Group and Telenor Norway, 2024-2026.
 - *The relation between heuristics for business process redesign and predictive/prescriptive process monitoring*. PhD trial lecture, NMBU, June 2023.
 - *Statistical process control and multivariate time series analysis with deep-learning-based anomaly detection*. Internal seminar, Telia Division X, 2022.
 - *Deep learning in practice at Telia Norway*. Guest lecture, DAT300, NMBU, 2019.
