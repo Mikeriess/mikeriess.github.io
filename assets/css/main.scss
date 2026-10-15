@@ -288,6 +288,38 @@ main > article > header h1 a {
 }
 
 
+/* blog index */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-list li:last-child {
+  border-bottom: 0;
+}
+
+.post-list h2 {
+  margin: 0 0 .2rem;
+  font-size: 1.3rem;
+}
+
+.post-list p {
+  margin: .4rem 0 0;
+}
+
+.post-nav {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: .95rem;
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   margin-top: 4rem;
