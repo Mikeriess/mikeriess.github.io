@@ -9,11 +9,13 @@ Researcher in applied AI with a PhD in predictive and prescriptive process monit
 
 The most up-to-date version of my CV is always available on my [LinkedIn profile](https://www.linkedin.com/in/mike-riess-8ba5796b/).
 
-## Research interests
+## {% include lucide.html name="lightbulb" %} Research interests
+{: #research-interests}
 
 Predictive and prescriptive process monitoring; sequential decision-making in operational processes, including reinforcement learning and model predictive control; evaluation, uncertainty and reliability of AI systems; large language models for Nordic languages; agentic systems for business process management and the human side of working with them.
 
-## Experience
+## {% include lucide.html name="briefcase" %} Experience
+{: #experience}
 
 ### Senior Research Scientist
 <p class="pub-meta">Telenor Research and Innovation, Telenor Group - Oslo, Norway - Oct 2023-present</p>
@@ -50,7 +52,8 @@ Development of EPI-Q, a system for automated fraud detection in survey data. Qua
 
 Qualitative and quantitative analysis for the department's PhD fellows and management in projects on innovation and management.
 
-## Education
+## {% include lucide.html name="graduation-cap" %} Education
+{: #education}
 
 ### Doctor of Philosophy in Economics and Business
 <p class="pub-meta">NMBU School of Economics and Business, Ås, Norway - 2018-2023</p>
@@ -70,7 +73,8 @@ Thesis: *User behaviour at Lydmaskinen.dk*. Supervisor: Assoc. Prof. Carsten Ber
 ### Academy Profession Degree in Marketing Management
 <p class="pub-meta">Business Academy Southwest (EASV), Sønderborg, Denmark - 2011-2013</p>
 
-## Teaching and supervision
+## {% include lucide.html name="presentation" %} Teaching and supervision
+{: #teaching-and-supervision}
 
 Teaching and supervision duties of 569 workload hours at NMBU from 2018 to 2021.
 
@@ -81,7 +85,8 @@ Teaching and supervision duties of 569 workload hours at NMBU from 2018 to 2021.
 - **Master's thesis supervision**, 2019-2021. Four theses within process optimisation, chatbots, data-driven customer insight and customer behaviour; main supervisor for three.
 - **Machine learning for BI analysts**, Telia Denmark, June 2023. Two-day internal course for the BI team.
 
-## Selected projects
+## {% include lucide.html name="folder-kanban" %} Selected projects
+{: #selected-projects}
 
 - **Intelligent Business Process Automation**, Telenor (2025-). Methodology lead for analysis and mapping of business processes across group functions, with a playbook and a position paper on robotic process automation versus agentic AI.
 - **AI Bench and GenAI strategy**, Telenor (2024-). Initiator of Telenor's internal benchmark suite for evaluating language models, productized into a model leaderboard on Telenor AI Factory infrastructure. The open Telenor Nordics corpus came out of the same work.
@@ -91,21 +96,24 @@ Teaching and supervision duties of 569 workload hours at NMBU from 2018 to 2021.
 - **Automated retention and MLOps architecture**, Telia Norway (2018-2019). Project lead.
 - **Automated fraud detection in survey data**, Epinion (2016), and discourse analyses for DR and NORAD (2017).
 
-## Software and data
+## {% include lucide.html name="database" %} Software and data
+{: #software-and-data}
 
 - [SynBPS](https://github.com/Mikeriess/SynBPS): open-source Python framework for simulating business process event logs, distributed on PyPI. Sole developer.
 - [BRAGE benchmark code](https://github.com/tnresearch/brage_2025).
 - [Telenor Nordics Customer Service Self-Help Corpus](https://doi.org/10.5281/zenodo.19493152): 1,122 manually validated self-help documents in Danish, Finnish, Norwegian and Swedish (CC BY-NC-SA 4.0).
 - [Temporal_loss](https://github.com/Mikeriess/Temporal_loss): temporal loss functions for remaining time prediction.
 
-## Professional service
+## {% include lucide.html name="users" %} Professional service
+{: #professional-service}
 
 - Member, [IEEE Task Force on Process Mining](https://tf-pm.org) (2021-)
 - PhD Advisory Committee, [NORA - The Norwegian Artificial Intelligence Research Consortium](https://www.nora.ai/) (2021-2023)
 - Open-source committee member, Danish Data Science Community (2025)
 - Reviewer, Autonomous Agents for Social Good workshop at AAMAS 2025, and Nordic Machine Intelligence (2025)
 
-## Talks and presentations
+## {% include lucide.html name="mic" %} Talks and presentations
+{: #talks-and-presentations}
 
 - *From prompt to business value: A case study in Telenor Norway*. Danish Data Science Community, March 2025.
 - *The BRAGE benchmark* (with Tollef Emil Jørgensen). NoDaLiDa/Baltic-HLT 2025, Tallinn, March 2025.
@@ -115,22 +123,26 @@ Teaching and supervision duties of 569 workload hours at NMBU from 2018 to 2021.
 - *Statistical process control and multivariate time series analysis with deep-learning-based anomaly detection*. Internal seminar, Telia Division X, 2022.
 - *Deep learning in practice at Telia Norway*. Guest lecture, DAT300, NMBU, 2019.
 
-## Entrepreneurship and voluntary work
+## {% include lucide.html name="rocket" %} Entrepreneurship and voluntary work
+{: #entrepreneurship-and-voluntary-work}
 
 - Founder and managing director, Studie-24 (2009-2013): production of radio commercials, run alongside my studies.
 - Co-founder, U&I Marketing (2012-2013): customer surveys and marketing advice for small businesses.
 - Business manager for the band Go Go Berlin, Air Management (2014-2016).
 - Voluntary accountant, PHONO Festival, Odense (2015-2016).
 
-## Certifications
+## {% include lucide.html name="award" %} Certifications
+{: #certifications}
 
 - Deep Learning Specialization, Coursera / deeplearning.ai (2017-2018): neural networks and deep learning; hyperparameter tuning, regularization and optimization; structuring machine learning projects; convolutional neural networks; sequence models.
 
-## Languages
+## {% include lucide.html name="languages" %} Languages
+{: #languages}
 
 Danish (mother tongue), Norwegian (fluent, daily working language), English (fluent, publishing language), German (basic).
 
-## Skills
+## {% include lucide.html name="wrench" %} Skills
+{: #skills}
 
 - **Code:** Python, R, SQL, SAS, LaTeX
 - **LLMs and agents:** MCP, LLM evaluation, in-context learning, vLLM
@@ -138,10 +150,12 @@ Danish (mother tongue), Norwegian (fluent, daily working language), English (flu
 - **Process mining:** pm4py, Disco, ProM, Celonis
 - **Platforms and MLOps:** Snowflake, BigQuery, PySpark, AWS SageMaker, Vertex AI, Dataiku, Docker, Kubernetes/OpenShift, Git
 
-## Publications
+## {% include lucide.html name="library" %} Publications
+{: #publications}
 
 See the [Research](/research/) page for a full list of papers with abstracts and links.
 
-## Profiles
+## {% include lucide.html name="link" %} Profiles
+{: #profiles}
 
 [LinkedIn](https://www.linkedin.com/in/mike-riess-8ba5796b/) - [Google Scholar](https://scholar.google.com/citations?user=Mgz-wTYAAAAJ) - [ORCID](https://orcid.org/0000-0002-4850-7121) - [GitHub](https://github.com/Mikeriess) - [Hugging Face](https://huggingface.co/mikeriess)
